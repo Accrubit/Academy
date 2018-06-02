@@ -4,9 +4,9 @@ description: >-
   use, development, integration, and more brought to you by Accrubit.com
 ---
 
-# Welcome to the Accrubit Academy
+# Welcome to Accrubit Academy
 
-## Welcome Page - 2018-06-02
+## Welcome to Accrubit Academy - 2018-06-02
 
 ### Changed
 
@@ -16,8 +16,10 @@ description: >-
 
 ### Added
 
-* 10 chapters added to Blockchain for Business guide
-* Accrubit Academy website and GitBook structure
+* 10 incomplete chapters added to Blockchain for Business guide
+* Accrubit Academy website and course structure deployed
+* Team backend completed with[ Kyle May](https://www.linkedin.com/in/kylelmay/) as lead course developer
+* [GitHub](https://github.com/Accrubit) and [Slack](https://accrubit.slack.com) integrated to Academy
 
 
 

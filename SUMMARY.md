@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Welcome to the Accrubit Academy](welcome-to-the-accrubit-learning-center.md)
+* [Welcome to Accrubit Academy](welcome-to-the-accrubit-learning-center.md)
 * [Blockchain for Business](blockchain-for-business/README.md)
   * [Intro to Blockchain](blockchain-for-business/intro-to-blockchain.md)
   * [Business Use Cases](blockchain-for-business/business-use-cases.md)
