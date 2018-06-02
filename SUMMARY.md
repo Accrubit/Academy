@@ -3,7 +3,7 @@
 * [Welcome to Accrubit Academy](README.md)
 * [Blockchain for Business](blockchain-for-business/README.md)
   * [Intro to Blockchain](blockchain-for-business/intro-to-blockchain.md)
-  * [Business Use Cases](blockchain-for-business/business-use-cases.md)
+  * [Blockchain Use Cases](blockchain-for-business/business-use-cases.md)
   * [Evaluating Solutions](blockchain-for-business/evaluating-solutions.md)
   * [Defining Scope](blockchain-for-business/defining-scope.md)
   * [Acquiring Resources](blockchain-for-business/acquiring-resources.md)
@@ -14,4 +14,6 @@
 * Blockchain for Developers
 * Cryptoeconomics
 * Cryptocurrency Investing
+* [Cryptocurrency Income](cryptocurrency-income/README.md)
+  * [Tierion Nodes](cryptocurrency-income/tierion-nodes.md)
 
