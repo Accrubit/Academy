@@ -88,7 +88,13 @@ When prompted, press enter to keep the existing version installed, it is the def
 
 #### Step 2: Installing Tierion Core Software 
 
-Next you will be installing the core software needed for the operations of a Tierion Node and editing the directory file for your specific credentials.  To install this software, the Tierion team created a simple command script to enter that installs all of the require packages automatically.
+Next you will be installing the core software needed for the operations of a Tierion Node and editing the directory file for your specific credentials.  To install this software, the Tierion team created a simple command script to enter that installs all of the required packages and configurations automatically.
+
+* Docker
+  * Docker Compose
+* Persistent 2GB swap file
+* Downloads Chainpoint Node repository to the home folder
+* Creates a default .env environment file, ready for you to edit
 
 ```bash
 curl -sSL https://cdn.rawgit.com/chainpoint/chainpoint-node/13b0c1b5028c14776bf4459518755b2625ddba34/scripts/docker-install-ubuntu.sh | bash
@@ -132,7 +138,7 @@ Enter the chainpoint node directory
 cd ~/chainpoint-node
 ```
 
-Check for the latest version, update if needed, and start up the node
+Check for the latest version, update if needed, add NTP services if missing, and start up the node.
 
 ```text
 make upgrade
@@ -173,7 +179,7 @@ Congratulations, you node is now setup. It will take around 2 hours \(**4 calend
 2. Do you currently have 5000 TNT in your node's wallet? 
 3. Are you validating calendar blocks in your logs? 
 4. Is your calendar up to date? 
-5. Are your NTP tolerances within acceptable parameters?
+5. Are your NTP tolerances within acceptable parameters? \(5 Seconds\)
 {% endhint %}
 
 If the above check out, you can then login to your node's interface using your browser like so:
@@ -187,7 +193,9 @@ It should look something like my node below:
 
 ![](https://www.accrubit.com/uploads/2/8/3/7/28374731/published/fireshot-capture-105-chainpoint-node-dashboard-http-18-221-150-84-about_1.png?1527979165)
 
-​​If you want to run another node, simply repeat this guide in it's entirety for each new node. I repeat, this is only for one node. You need 5000 TNT, a new server, a new IP, and a new wallet for each node. 
+​​If you want to run another node, simply repeat this guide in it's entirety for each new node. You need 5000 TNT, a new server, a new IP, and a new wallet for each node. 
 
 Unless of course you are running containerized server hardware with multiple Global IP's allocated for you to use from you ISP.
+
+For more detailed documentation on Tierion Nodes and the capabilities of them, please go to the [official GitHub repository](https://github.com/chainpoint/chainpoint-node).
 
