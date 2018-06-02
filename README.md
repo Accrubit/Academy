@@ -10,7 +10,8 @@ description: >-
 
 ### Changed {#changed}
 
-* Changed title and description of Home Page to reflect purpose of website
+* Title and description of Home Page edited to reflect purpose of website
+* Navbar edited for continuity
 
 ## Blockchain for Business - 2018-06-01 {#blockchain-for-business-2018-06-01}
 
