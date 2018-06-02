@@ -4,7 +4,7 @@ description: >-
   use, development, integration, and more brought to you by Accrubit.com
 ---
 
-# Welcome to the Accrubit Learning Center
+# Welcome to the Accrubit Academy
 
 ## Blockchain for Business - 1138-06-01
 
