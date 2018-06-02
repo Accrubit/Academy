@@ -10,8 +10,6 @@ This will be the most abstract module in the guide, so don't feel concerned if t
 
 ![](../.gitbook/assets/weekly-market-breakdown-7.png)
 
-### **Where did blockchain come from?**
-
 Blockchain was first invented with the development of the cryptocurrency Bitcoin, which is a peer to peer digital currency and settlement network that enables individuals to store, retrieve, and transact anywhere in the world across any border without needing a 3rd party to facilitate the service. [\[1\]](https://bitcoin.org/bitcoin.pdf)  
   
 It's important to note, that Bitcoin and blockchain are not synonymous with each other anymore. Blockchain is the underlying software that enables Bitcoin to exist, but like any other software product there are many different variations on the market. [\[2\]](https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-bitcoin-and-blockchain-for-business/)  
