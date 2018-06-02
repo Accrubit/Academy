@@ -4,7 +4,7 @@ description: >-
   blockchain, cryptocurrency, and other Web 3.0 technologies.
 ---
 
-# Introduction
+# Welcome to Accrubit Academy
 
 ## Welcome to Accrubit Academy - 2018-06-02 {#welcome-to-accrubit-academy-2018-06-02}
 
