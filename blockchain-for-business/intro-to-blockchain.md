@@ -1,7 +1,7 @@
 ---
 description: >-
   In this module we will be defining blockchain technology, why it's useful,
-  where it came from, and how to explain it in simple terms to others.
+  where it came from, and how it works.
 ---
 
 # Intro to Blockchain
