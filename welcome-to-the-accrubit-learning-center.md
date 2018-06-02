@@ -6,7 +6,13 @@ description: >-
 
 # Welcome to the Accrubit Academy
 
-## Blockchain for Business - 1138-06-01
+## Welcome Page - 2018-06-02
+
+### Changed
+
+* Changed title of Welcome Page
+
+## Blockchain for Business - 2018-06-01
 
 ### Added
 
