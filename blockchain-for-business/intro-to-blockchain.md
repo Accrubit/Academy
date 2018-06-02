@@ -32,7 +32,11 @@ Now to some this definition is already too technical, but that doesn't change th
 
 Financial institutions, among others, have been using digital ledgers for decades now, but the difference and innovation behind a blockchain ledger is that the data is shared between participants in real time and utilizes programmable smart contracts to ensure settlements take place within the agreed upon rules of the network. [\[4\]](https://www.investopedia.com/terms/g/generalledger.asp)[\[5\]](https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf)
 
-> #### **Consider ATM machines:** Each machine is owned by a single institution, but accepts cards from a huge network. This sharing requires a [complicated management apparatus](https://www.cryptocoinsnews.com/history-visa-probably-different-think/), [mostly provided by VISA](http://www.creditcards.com/credit-card-news/market-share-statistics.php). That central entity owns the database and transaction processing layer, which makes everything else possible.  If the process of using an ATM had been invented today, with blockchain as a state-of-the-art database technology as an option, we would most likely not need an administrative entity like VISA to manage the process. Instead, the technology itself would do the heavy lifting of uniting the interests and business processes of the member banks.  ​One can easily imagine a single global blockchain network for managing the interoperability of bank cards. Rather than creating hub-and-spoke methods for organizing our shared resources for mutual advantage, this new technology would provide solutions without any central oversight. [\[3\]](https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen)
+> **Consider ATM machines:** Each machine is owned by a single institution, but accepts cards from a huge network. This sharing requires a [complicated management apparatus](https://www.cryptocoinsnews.com/history-visa-probably-different-think/), [mostly provided by VISA](http://www.creditcards.com/credit-card-news/market-share-statistics.php). That central entity owns the database and transaction processing layer, which makes everything else possible.  
+>   
+> If the process of using an ATM had been invented today, with blockchain as a state-of-the-art database technology as an option, we would most likely not need an administrative entity like VISA to manage the process. Instead, the technology itself would do the heavy lifting of uniting the interests and business processes of the member banks.  
+>   
+> ​One can easily imagine a single global blockchain network for managing the interoperability of bank cards. Rather than creating hub-and-spoke methods for organizing our shared resources for mutual advantage, this new technology would provide solutions without any central oversight. [\[3\]](https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen)
 
 ### **How do blockchain ledgers actually work?**
 
@@ -47,7 +51,7 @@ Since blockchains are peer-to-peer, they can only be updated by following a prog
 We can compare this to traditional ledgers which are stored in standard databases on centralized servers within the specific organization the data belongs to. These databases have administrators who can technically read, write, modify, erase, and sort the data in any way they wish. In order for these ledgers to communicate between participants in the network, they must use a trusted 3rd party to mediate and oversee the exchange, requiring a complex management and administrative system.
 
 {% hint style="info" %}
-### Insight:
+### Insights
 
 What blockchain does for business is allow separate entities to utilize a master ledger for the transfer and settlement of assets without the need for a 3rd party intermediary or complex management system.
 {% endhint %}
@@ -70,7 +74,7 @@ What blockchain does for business is allow separate entities to utilize a master
 * Are blockchains just for payments or can they be used for other cases?
 {% endhint %}
 
-**In the next chapter we will go over these questions and more as we review the most prominent use cases \(and non-use cases\) for blockchain technology.** 
+**In the** [**next chapter** ](https://learn.accrubit.com/blockchain-for-business/business-use-cases)**we will go over these questions and more as we review the most prominent use cases \(and non-use cases\) for blockchain technology.** 
 
 {% tabs %}
 {% tab title="Module References" %}
