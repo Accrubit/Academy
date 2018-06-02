@@ -1,10 +1,3 @@
----
-description: >-
-  In this chapter we will cover the best practices for blockchain integration
-  including ICO's, cryptocurrency, product marketing, business model
-  reconfiguration, and smart contracts.
----
-
 # Business Integration
 
 

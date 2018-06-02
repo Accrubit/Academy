@@ -1,9 +1,3 @@
----
-description: >-
-  In this chapter we will be defining blockchain technology, why it's useful,
-  where it came from, and how it works.
----
-
 # Intro to Blockchain
 
 This will be the most abstract module in the guide, so don't feel concerned if the dots aren't being connected at the end.

@@ -1,10 +1,3 @@
----
-description: >-
-  In this chapter we will be understanding the maintenance required for
-  blockchain based systems and how those systems are used from both a business
-  and customer experience.
----
-
 # Maintenance and Use
 
 {% hint style="success" %}

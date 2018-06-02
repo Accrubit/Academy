@@ -1,10 +1,3 @@
----
-description: >-
-  In this chapter we will be reviewing the current and potential use cases for
-  blockchain technology across a wide range of industries, and how to evaluate
-  blockchain based solutions.
----
-
 # Business Use Cases
 
 {% hint style="success" %}

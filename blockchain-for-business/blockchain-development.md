@@ -1,10 +1,3 @@
----
-description: >-
-  In this chapter we will be examining the blockchain development life cycle,
-  how to manage and evaluate deliverables, common mistakes, and how to ensure
-  vision doesn't overcome completion.
----
-
 # Blockchain Development
 
 {% hint style="success" %}

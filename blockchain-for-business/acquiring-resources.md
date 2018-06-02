@@ -1,11 +1,4 @@
----
-description: >-
-  In this chapter we will survey the most prominent blockchain platforms, both
-  public and permissioned, to identify their strengths, purposes, and evaluate
-  potential use.
----
-
-# Evaluating Solutions
+# Acquiring Resources
 
 {% hint style="success" %}
 ### **Chapter Summary**

@@ -1,11 +1,4 @@
----
-description: >-
-  In this chapter we will go over how to acquire the resources necessary to
-  carry out a blockchain development initiative from the talent to the
-  platforms, and more.
----
-
-# Acquiring Resources
+# Evaluating Solutions
 
 {% hint style="success" %}
 ### **Chapter Summary**

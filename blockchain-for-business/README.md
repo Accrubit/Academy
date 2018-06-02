@@ -1,9 +1,3 @@
----
-description: >-
-  A comprehensive and platform agnostic course for integrating and developing
-  blockchain solutions for business use.
----
-
 # Blockchain for Business
 
 {% hint style="info" %}

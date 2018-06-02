@@ -1,9 +1,3 @@
----
-description: >-
-  In this chapter we will define the scope of a blockchain based project and
-  determine the pieces necessary to bring the project from idea to completion.
----
-
 # Defining Scope
 
 {% hint style="success" %}
