@@ -2,32 +2,31 @@
 
 ### Getting Started
 
-We will be going over how to easily setup a [Tierion Network Node](https://github.com/chainpoint/chainpoint-node) from beginning to end using Amazon Web Services. You do not need to use Amazon to run a Tierion node, however I prefer to use them over others for the simplicity of this setup. 
+I will be going over how to easily setup a [Tierion Network Node](https://github.com/chainpoint/chainpoint-node) from beginning to end using Amazon Web Services. You do not need to use Amazon to run a Tierion node, however I prefer to use them over others for the simplicity of this setup. 
 
 If you do not want to use Amazon for whatever reason, do not follow this guide. I will also not be getting into the economics of running a node, but if you are interested, I have an ongoing [profitability assessment here](https://www.accrubit.com/terion-news.html).  
   
 So if you would like to start a node quickly and as painlessly as possible, this setup will get you there in these 8 simple steps:
 
-1. ​Setting up your node's Ethereum Wallet
-2. Setting up an Amazon Lightsail Account
-3. Renting an Ubuntu Virtual Server
-4. Pairing a Static IP Address to your Ubuntu Virtual Server
-5. Setting up Your Ubuntu Virtual Server
-6. Installing Tierion Node Software Stack
-7. Verifying your Tierion Node 
-8. Monitoring your Tierion Node
+1. ​Setting up Your Node's Ethereum Wallet
+2. Creating an Amazon Lightsail Account
+3. Purchasing an Ubuntu Virtual Server
+4. Pairing a Static IP Address to Your Ubuntu Server
+5. Setting Up Your Ubuntu Virtual Server
+6. Starting Up and Verifying Your Tierion Node
+7. Monitoring your Tierion Node
 
 {% hint style="info" %}
-In this guide you will see some code boxes representing command interfaces, the only thing we are putting in there are the commands, and some supporting detail in \(parentheses\). 
+In this guide you will see some code boxes representing command interfaces, the only thing we are putting in there are the commands.
 {% endhint %}
 
 ### Setting Up Your Node's Wallet​​
 
-In order to manage your node, I recommend first creating a new ERC-20 compatible wallet on https://www.myetherwallet.com. 
+In order to manage your node, I recommend first creating a new ERC-20 compatible wallet on [https://www.myetherwallet.com](https://www.myetherwallet.com). 
 
-Once you have created you wallet, ensure it has:
+Once you have created your wallet, ensure it has:
 
-* Ethereum \(ETH\) for gas fees \(We use 0.01 ETH as a base\) 
+* Ethereum \(ETH\) for gas fees \(I use 0.01 ETH as a base\) 
 * At least 5000 TNT for node eligibility.
 
 ![MEW Wallet](https://www.accrubit.com/uploads/2/8/3/7/28374731/editor/mew-image.png?1505627506)
@@ -68,7 +67,7 @@ We use the $20 plan for future proofing in case we want to use the nodes to veri
 
 ![](https://www.accrubit.com/uploads/2/8/3/7/28374731/lamboip_orig.png)
 
-### Setting up Your Ubuntu Server
+### Setting Up Your Ubuntu Server
 
 Time to actually begin setting up your machine. Whether you have used Linux command line interfaces or not, we are going to make this as easy to perform as possible for you.  Each line is a command. You need to press the enter key to send. The commands below will update Ubuntu on your machine.
 
@@ -116,7 +115,7 @@ vi ~/chainpoint-node
 
 You should now have edited your node's .env file to contain your wallet address and your static IP address.
 
-### Starting Up and ​Verifying your Tierion Node 
+### Starting Up and ​Verifying Your Tierion Node 
 
 Time for the moment you have been waiting for, node startup. To startup your node and perform the basic system checks you will do the following:
 
@@ -155,17 +154,17 @@ You will know your node is working if there are no errors, and that you are seei
 
 If you see "Firewall: "\#\#\#\#" IPs Blocked" this is normal so don't worry about it. 
 
-If you see that registration is full, simply wait for the next registration announcement from Tierion on their blog and telegram.
+If you see that registration is full, simply wait for the next registration announcement from Tierion on their [blog](https://medium.com/tierion).
 
-If you are seeing any other errors check out the node FAQ for resolution.
+If you are seeing any other errors check out the [node FAQ](https://github.com/chainpoint/chainpoint-node/wiki/Frequently-Asked-Questions) for resolution.
 
 {% hint style="info" %}
 **Tip:** For those unaware, you do not need to leave the logs open for the software to run. They are just for your use as an administrator to know what's going on with your node. To learn some basic Linux commands [go here.](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners)
 {% endhint %}
 
-### Monitoring your Tierion Node
+### Monitoring Your Tierion Node
 
-Congratulations, you node is now setup. It will take around 2 hours \(**4 calendar verifications**\) for your node to become eligible for rewards. If you don't know what the calendar is, you should read the Tierion whitepaper.
+Congratulations, you node is now setup. It will take around 2 hours \(**4 calendar verifications**\) for your node to become eligible for rewards. If you don't know what the calendar is, you should read the [Tierion whitepaper](https://tokensale.tierion.com/TierionTokenSaleWhitePaper.pdf).
 
 {% hint style="warning" %}
 ### How do you know if your node is working properly and eligible?
@@ -190,5 +189,5 @@ It should look something like my node below:
 
 ​​If you want to run another node, simply repeat this guide in it's entirety for each new node. I repeat, this is only for one node. You need 5000 TNT, a new server, a new IP, and a new wallet for each node. 
 
-Unless of course you are running a containerized server hardware with multiple Global IP's allocated for you to use from you ISP.
+Unless of course you are running containerized server hardware with multiple Global IP's allocated for you to use from you ISP.
 
