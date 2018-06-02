@@ -10,8 +10,8 @@ description: >-
 
 ### Added
 
-* 10 chapters added to guide
-* Gitbook first publish
+* 10 chapters added to Blockchain for Business guide
+* Accrubit Academy website and GitBook structure
 
 
 
