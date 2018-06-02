@@ -1,3 +1,9 @@
+---
+description: >-
+  Understand blockchain technology and be able to explain it's value under the
+  context of business
+---
+
 # Intro to Blockchain
 
 This will be the most abstract module in the guide, so don't feel concerned if the dots aren't being connected at the end.

@@ -1,3 +1,10 @@
+---
+description: >-
+  Be able to identify the Ethereum, Hyperledger, Corda, AWS, and Microsoft
+  blockchain platforms, as well as determine which should be used for a given
+  project
+---
+
 # Evaluating Solutions
 
 {% hint style="success" %}

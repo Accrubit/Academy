@@ -1,3 +1,9 @@
+---
+description: >-
+  Be able to define project scope for blockchain integration and development
+  projects
+---
+
 # Defining Scope
 
 {% hint style="success" %}

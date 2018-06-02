@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn the core maintenance tasks behind blockchain technology and how to build
+  effective user experiences for both backend management and customer use.
+---
+
 # Maintenance and Use
 
 {% hint style="success" %}

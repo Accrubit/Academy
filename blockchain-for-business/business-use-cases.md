@@ -1,3 +1,7 @@
+---
+description: Be able to assess business need and/or use for distributed ledger technologies
+---
+
 # Business Use Cases
 
 {% hint style="success" %}

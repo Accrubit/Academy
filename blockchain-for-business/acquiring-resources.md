@@ -1,3 +1,9 @@
+---
+description: >-
+  Identify the technologies, talent, and costs required for blockchain
+  development and use
+---
+
 # Acquiring Resources
 
 {% hint style="success" %}

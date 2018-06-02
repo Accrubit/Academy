@@ -1,3 +1,10 @@
+---
+description: >-
+  Understand how to integrate blockchain systems into a business model, build
+  marketing and compliance initiatives, ICO's, cryptocurrency, and smart
+  contracts.
+---
+
 # Business Integration
 
 

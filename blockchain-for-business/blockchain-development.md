@@ -1,3 +1,9 @@
+---
+description: >-
+  Understand the development life cycle of blockchain software, how to evaluate
+  performance and completion of features, common mistakes, and more.
+---
+
 # Blockchain Development
 
 {% hint style="success" %}
