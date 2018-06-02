@@ -1,6 +1,6 @@
 ---
 description: >-
-  In this module we will be defining blockchain technology, why it's useful,
+  In this chapter we will be defining blockchain technology, why it's useful,
   where it came from, and how it works.
 ---
 
@@ -16,7 +16,7 @@ Blockchain was first invented with the development of the cryptocurrency Bitcoin
   
 It's important to note, that Bitcoin and blockchain are not synonymous with each other anymore. Blockchain is the underlying software that enables Bitcoin to exist, but like any other software product there are many different variations on the market. [\[2\]](https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-bitcoin-and-blockchain-for-business/)  
   
-Due to this, there are hundreds of definitions for blockchain circulating around the internet, most of which are inaccurate. As a blockchain developer, the below definition is what you want to actually remember.
+Due to this, there are hundreds of definitions for blockchain circulating around the internet, most of which are inaccurate. As a blockchain developer, the below definition is what you want to actually remember. [\[6\]](http://fortune.com/2017/12/07/satire-its-time-to-admit-no-one-knows-what-the-blockchain-is/)
 
 {% hint style="info" %}
 ### Blockchain Defined:
@@ -28,9 +28,11 @@ A blockchain is a chronologically sorted, distributed, digital ledger which cont
 
 Now to some this definition is already too technical, but that doesn't change the fact you need to memorize it. 
 
-### **So why is this ledger technology useful?**  
+### **So why is this distributed ledger technology so useful?**  
 
-Financial institutions, among others, have been using digital ledgers for decades now, but the difference and innovation behind a blockchain ledger is that the data is shared between participants in real time and utilizes programmable smart contracts to ensure settlements take place within the agreed upon rules of the network. [\[4\]](https://www.investopedia.com/terms/g/generalledger.asp)[\[5\]](https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf)
+Financial institutions, among others, have been using digital ledgers for decades now, but the difference and innovation behind a blockchain ledger is that the data is shared between participants in real time and utilizes programmable smart contracts to ensure settlements take place within the agreed upon rules of the network. [\[4\]](https://www.investopedia.com/terms/g/generalledger.asp)[\[5\]](https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf)  
+  
+When applied to business processes, blockchain technology can reduce costs, increase security, ensure data integrity, create more trustful relationships between businesses and their customers, as well as add a level of automation to administrative processes that take human staff much longer to complete. 
 
 > **Consider ATM machines:** Each machine is owned by a single institution, but accepts cards from a huge network. This sharing requires a [complicated management apparatus](https://www.cryptocoinsnews.com/history-visa-probably-different-think/), [mostly provided by VISA](http://www.creditcards.com/credit-card-news/market-share-statistics.php). That central entity owns the database and transaction processing layer, which makes everything else possible.  
 >   
@@ -77,13 +79,14 @@ What blockchain does for business is allow separate entities to utilize a master
 **In the** [**next chapter** ](https://learn.accrubit.com/blockchain-for-business/business-use-cases)**we will go over these questions and more as we review the most prominent use cases \(and non-use cases\) for blockchain technology.** 
 
 {% tabs %}
-{% tab title="Module References" %}
+{% tab title="Chapter References" %}
 1.  [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
 2.  [https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-bitcoin-and-blockchain-for-business/](https://www.ibm.com/blogs/blockchain/2017/05/the-difference-between-bitcoin-and-blockchain-for-business/)
 3.  [https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen](https://hbr.org/2017/03/the-promise-of-blockchain-is-a-world-without-middlemen)
 4.  [https://www.investopedia.com/terms/g/generalledger.asp](https://www.investopedia.com/terms/g/generalledger.asp)
 5.  [https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf](https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf)
-6. 
+6.  [http://fortune.com/2017/12/07/satire-its-time-to-admit-no-one-knows-what-the-blockchain-is/](http://fortune.com/2017/12/07/satire-its-time-to-admit-no-one-knows-what-the-blockchain-is/)
+7. 8. 9. 
 {% endtab %}
 
 {% tab title="Forum" %}
