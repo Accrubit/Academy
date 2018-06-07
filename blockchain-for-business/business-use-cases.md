@@ -21,7 +21,7 @@ As usual with popularized technology, the answer lies somewhere in the middle. D
 3. Accounts and transactions are not very user friendly
 {% endhint %}
 
-### 1: Data storage and transfers
+### Issue 1: Data storage and transfers
 
 As we learned in the Intro to Blockchain, these ledgers are immutable, meaning the data cannot be modified, deleted, or moved elsewhere. The problem this adds is with the peer-to-peer nature of blockchain systems. If each and every participant maintains a full working copy of the blockchain, then every time any data is added to it, it must be added to the hard drives of all participants in the network.
 
@@ -67,7 +67,7 @@ It is these unique signatures that you would store to a blockchain, and anytime 
 **In simple terms, you would just take the signature of image to store, not the image itself.**
 {% endhint %}
 
-### 2: Human error breeds catastrophe
+### Issue 2: Human error breeds catastrophe
 
 This is possibly one of the most glossed over attributes of blockchain systems in the industry. While we can all imagine the benefits of automated contracts, distributed value systems, and individual digital ownership of assets, we should all be equally as concerned about them. For example:
 
@@ -143,7 +143,7 @@ The scope of human error extends into the most catastrophic circumstances in blo
 
 Blockchain is still new technology, and isn't a full stack system, so don't rush into it without expecting copious amounts of trial and error. Next, we will talking about the last main issue, poor user experience, which unfortunately acts as a multiplier on the problem of human error.
 
-### 3:  User experience is uncompromising and technical
+### Issue 3:  User experience is uncompromising and technical
 
 
 
@@ -163,11 +163,13 @@ Blockchain is still new technology, and isn't a full stack system, so don't rush
 * 
 {% endhint %}
 
-**In the** [**next chapter** ](https://learn.accrubit.com/blockchain-for-business/business-use-cases)**we will** 
+**In the** [**next chapter** ](https://learn.accrubit.com/blockchain-for-business/business-use-cases)**we will be evaluating the most prominent blockchain solutions, from protocols to front-ends, and how to choose the one that's right for you.**
 
 {% tabs %}
 {% tab title="Chapter References" %}
 1. 2. 3.  [https://blockchain.info/charts/n-transactions-per-block](https://blockchain.info/charts/n-transactions-per-block)
+4. 5. 6. 7. 8. 9. [https://medium.com/swlh/the-user-experience-of-blockchain-applications-ea7defc388df](https://medium.com/swlh/the-user-experience-of-blockchain-applications-ea7defc388df)
+10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 
 {% endtab %}
 {% endtabs %}
 
