@@ -67,6 +67,84 @@ It is these unique signatures that you would store to a blockchain, and anytime 
 **In simple terms, you would just take the signature of image to store, not the image itself.**
 {% endhint %}
 
+### 2: Human error breeds catastrophe
+
+This is possibly one of the most glossed over attributes of blockchain systems in the industry. While we can all imagine the benefits of automated contracts, distributed value systems, and individual digital ownership of assets, we should all be equally as concerned about them. For example:
+
+* If you make a transaction to the wrong address, that asset transfer is unrecoverable. 
+* If you deploy a smart contract with an exploit in the programming, the software can't just be updated to fix it.
+* If you don't maintain secure and accessible environments for your access keys, you can be locked out your accounts forever.
+* If the consensus model isn't secure for your distributed network, an attacker can seize control of the entire blockchain.
+
+As you can see, these are some serious drawbacks to using a blockchain system.
+
+I've had the displeasure of informing clients from high level fund managers to your average consumer that there isn't any third party that can come to their rescue after mismanaging their assets. This is last thing anybody wants to hear after losing any sum of money.
+
+{% hint style="warning" %}
+###  Common Human Errors in Blockchain
+
+* Using an Incorrect Recipient Address
+* Falling for Phishing Attacks
+* Programming Vulnerable Smart Contracts
+* Designing Vulnerable Consensus Networks
+* Sending Assets to Incompatible Wallets
+* Ignoring the Advice of Experts and the Failures of Yesterday
+* Using Blockchains for Incompatible Use Cases
+* Assuming Blockchain Systems can be Compatible
+* Not Securing Account Information and Keys Sufficiently
+{% endhint %}
+
+#### Case Study: The DAO Hack
+
+> "The DAO" was the name of a specific Distributed Autonomous Organization, which launched on the Ethereum platform April 30th, 2016.
+
+> At the time, The DAO was represented everything innovative and comforting about public crowd sales at the time, and promised to build a decentralized organization that would allow democratic management of both commercial and non-profit enterprises. At the time, The DAO was the largest crowdfunding in history, with over $150 million in capital raised in just 28 days.
+>
+> The creators of The DAO were not expecting any of this to happen, and were not prepared for what happened next.
+
+> Once the crowdsale was over, many issues were addressed regarding potential vulnerabilities and exploits of the smart contracts managing the organization. After all, this was the most complicated attempt at such an organization to date. One such exploit that was discussed, was the "recursive call bug", which had been found in the software by one of the founders.
+>
+> Despite the vulnerability, the founders insisted that it was patched before launching and that DAO funds were not at any risk of being exploited.
+>
+> In June 2016, users exploited the vulnerability which enabled them to steal 3.6 million ether, worth around $80 million at the time, of The DAO's funds. In July 2016 at Block 1,920,000 on the Ethereum blockchain, the Ethereum development community voted to hard-fork the Ethereum blockchain to restore virtually all funds that were stolen to the original accounts.
+>
+> This was highly controversial and led to a lasting fork in Ethereum. This is why there is an Ethereum Classic \(Original Chain\) and an Ethereum \(Developer Approved Chain\).
+
+> The DAO was completely delisted from all exchanges and the project was pronounced dead in the water in just a few months time.
+
+Now it's important to simplify what happened here so you can understand the gravity of what can happen in blockchain systems: 
+
+* A successfully funded startup raised over 100 million dollars and lost it all due to just a **few lines of code** in their smart contracts.
+* The founders ignored the advice and recommendations of legal and technical experts all over the world and decided to push forward on a project prematurely.
+* The SEC concluded that DAO tokens sold on the Ethereum blockchain were securities and therefore possible violations of U.S. securities laws.
+* Ethereum was forced to bail the DAO and their investors out at their own expense by initiating a hard fork that returned stolen funds back to the original accounts.
+
+{% hint style="info" %}
+### How could the DAO hack have been prevented?
+
+You have to expect security flaws to show up in any IT system, period. There isn't a developer alive who doesn't leave a vulnerability in their program, and not because they aren't experienced enough, but because human ingenuity always finds a new attack vector to exploit.
+
+In the DAO's case, they simply rushed their technology and ignored the warning signs of significant vulnerabilities.
+
+Good news is, there are pretty standard practices to follow to help bolster the efficiency and security of your blockchain system:
+
+1. Smart Contract Audits
+2. Network Stress Testing
+3. Multiple Product Phases Prior to Launch
+4. Formal Security Audits
+5. Bug Bounties
+6. Did I say test? Keep testing
+7. Consult with expert advisers in every piece of your use case
+
+If the DAO had simply slowed down, broken their product launch into lengthy test phases, performed professional audits, and heeded the warnings of their advisers, then the hack likely would have never occurred.
+{% endhint %}
+
+The scope of human error extends into the most catastrophic circumstances in blockchain systems. Unlike traditional centralized systems, there are no third parties to rely on for support, and there isn't a quick way to patch or reverse exploits once they are found. Furthermore, if you are operating on a public network without KYC, there may not even be an avenue for legal support. 
+
+Blockchain is still new technology, and isn't a full stack system, so don't rush into it without expecting copious amounts of trial and error. Next, we will talking about the last main issue, poor user experience, which unfortunately acts as a multiplier on the problem of human error.
+
+### 3:  User experience is uncompromising and technical
+
 
 
 {% hint style="success" %}

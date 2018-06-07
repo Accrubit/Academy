@@ -11,9 +11,9 @@
   * [Business Integration](blockchain-for-business/business-integration.md)
   * [Maintenance and Use](blockchain-for-business/maintenance-and-use.md)
   * [Course Resources](blockchain-for-business/course-resources.md)
-* Blockchain for Developers
-* Cryptoeconomics
-* Cryptocurrency Investing
+* [Blockchain for Developers](blockchain-for-developers.md)
+* [Cryptoeconomics](cryptoeconomics.md)
+* [Cryptocurrency Investing](untitled.md)
 * [Cryptocurrency Income](cryptocurrency-income/README.md)
   * [Tierion Nodes](cryptocurrency-income/tierion-nodes.md)
 
