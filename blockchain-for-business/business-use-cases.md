@@ -96,11 +96,11 @@ I've had the displeasure of informing clients from high level fund managers to y
 
 #### Case Study: The DAO Hack
 
-> "The DAO" was the name of a specific Distributed Autonomous Organization, which launched on the Ethereum platform April 30th, 2016.
+> "The DAO" was the name of a specific Distributed Autonomous Organization, which launched on the Ethereum platform April 30th, 2016.  They were building a venture capital platform where investment decisions would be made based on community consensus rather than a centralized panel of executives.
 
-> At the time, The DAO was represented everything innovative and comforting about public crowd sales at the time, and promised to build a decentralized organization that would allow democratic management of both commercial and non-profit enterprises. At the time, The DAO was the largest crowdfunding in history, with over $150 million in capital raised in just 28 days.
+> The DAO was represented everything innovative and comforting about public crowd sales, and promised to build a decentralized organization that would allow democratic management of both commercial and non-profit enterprises. At the time, The DAO was the largest crowdfunding in history, with over $150 million in capital raised in just 28 days.
 >
-> The creators of The DAO were not expecting any of this to happen, and were not prepared for what happened next.
+> The creators of The DAO were not expecting such an overwhelming interest, and were not prepared to handle it. They did not cap their funding round, which is a standard ethic regarding the raising of capital.
 
 > Once the crowdsale was over, many issues were addressed regarding potential vulnerabilities and exploits of the smart contracts managing the organization. After all, this was the most complicated attempt at such an organization to date. One such exploit that was discussed, was the "recursive call bug", which had been found in the software by one of the founders.
 >
