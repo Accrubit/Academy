@@ -156,7 +156,7 @@ I want to be clear before really diving in, that I am not referring to the user 
 Take a simple decentralized application, or Dapp, built on Ethereum as an example:
 
 {% hint style="info" %}
-### The Dapp New User Experience
+### The Dapp "New User Experience"
 
 Let's imagine that you were trying to learn more about decentralized applications, which are applications that run autonomously on distributed networks without a central authority. 
 
