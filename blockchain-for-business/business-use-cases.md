@@ -145,7 +145,77 @@ Blockchain is still new technology, and isn't a full stack system, so don't rush
 
 ### Issue 3:  User experience is uncompromising and technical
 
+Conflicting terminology, punishing interfaces, gibberish addresses, memorizing password seeds, writing down private keys, and error message after error message. You would think i'm describing the early internet here, but unfortunately this is the current state of the blockchain experience. It's hard to attract users and administrators to a platform that requires a heap of learning and time to accomplish anything on.
 
+Unless of course those users get a sense of superiority out of being a wizard at the clunky systems nobody wants anything to do with.
+
+Now I may be being cynical with this point, but the reality of today is that the user is king. The business model of today is centralized around monetizing the actions of people online, and the data trails they leave behind. 
+
+I want to be clear before really diving in, that I am not referring to the user interface \(UI\) in blockchain systems. This can be controlled quite easily and there are many blockchain companies with some of the most appealing and intuitive user interfaces around. There's a reason for that however, and that reason is that blockchain systems have to compromise for the actual user experience being uncompromising and technical.
+
+Take a simple decentralized application, or Dapp, built on Ethereum as an example:
+
+{% hint style="info" %}
+### The Dapp New User Experience
+
+Let's imagine that you were trying to learn more about decentralized applications, which are applications that run autonomously on distributed networks without a central authority. 
+
+You found a particular Dapp that provides a decentralized new network, and are curious for how it works. You go to setup an account on their website, but you are quickly promoted that you need to install some software. In this case, it's the Chrome browser extension Metamask, which acts as an account bridge between traditional browsers and the Ethereum blockchain.
+
+Once installed, you are able to create your account, but as you go to pay for a membership, you realize that your Metamask wallet is empty. You then go to login to Coinbase to get some Ether, which requires you to go get your phone from the other room for the two factor authentication required to login into your account.
+
+Once logged in, you buy some Ether, and send it to the Metamask address your created. By the time you have done all of this, it's been 15 minutes and you have become disinterested in the Dapp and more interested in the current price trends of cryptocurrency.
+
+You forget all about the Dapp and spend the next couple hours learning about cryptocurrencies and wallets.
+{% endhint %}
+
+Contrast this experience to Netflix. You sign up for an account, input your credit card information, and bam you have access to a massive library of entertainment. This is made possible largely due to the centralization of services and technology. 
+
+There are a whole list of new expectations placed on a user of blockchain systems that can cause difficuties ranging from compromising accounts to wasting a lot of time putting the pieces together to use the system effectively. 
+
+{% hint style="warning" %}
+### Blockchain Users Are Expected To
+
+* Piece together software for feature accessibility
+* Manage financial accounts
+* Implement access control measures
+* Understand technical jargon
+{% endhint %}
+
+I mean take the definiton of a blockchain from chapter one
+
+> A blockchain is a chronologically sorted, distributed, digital ledger which contains an irreversible archive of transaction records that are stored and chained together in batches called blocks.
+
+Do we expect the public to actually memorize this? Do we want our users to even think about blockchain? I would propose that in most cases we do not.
+
+A product's focus should always be on the user and how their needs, desires, and interests are amplified and supported by what we build. You don't see companies talking about how amazing and innovative the Windows registry is towards the security and management of their operating system experience.
+
+The technology isn't important to the user, the experience is. 
+
+#### So f**or the blockchain user experience to improve we need to accomplish two things:**
+
+1. Effectively communicate the benefits of blockchain technology without requiring anybody to have any clue what it even is.
+2. Advance the technology stack of blockchain so that the burden of abstracting the technical understandings of blockchain is easier to do.
+
+#### Why is this the correct path to take?
+
+Well, we often take the UX for granted on the internet these days, and behind these wonderful experiences are decades of innovations and efficiencies built into everything from the hardware being used to the communications protocols active on the network.
+
+Let's take something as simple as email as an example of a user experience improving over time:
+
+> When email first became popular back in the 1980s, there were two communications protocols developed to facilitated access to email over a remote server. They were POP \(Post Office Protocol\) and IMAP \(Internet Message access protocol\).
+>
+> POP only downloads email to a device, and will typically delete the email from the server it was retrieved from. This protocol isn't very user friendly, as it doesn't synchronize the retrieval of your email across all of your devices, requiring you to read and delete the same emails on every single account. Furthermore, any settings set on one device for email, won't be synchronized across devices either.
+
+> IMAP was the solution to this user experience, which allows you to store your email on remote servers. This feature allowed accounts on servers to manage the state of your email experience across all devices, which when considering the average person owns 3 devices, this is a massive improvement.
+>
+> So instead of downloading your emails, you are simply viewing them on a server owned by you or a provider like Google or Microsoft.
+
+The point being made here is that Blockchain simply hasn't had the time, nor experience to mature into a more user friendly technology, but like email, these are likely temporary issues and as developers continue to flock towards emerging technologies like blockchain the experience will only become smoother and more flexible for all. 
+
+We shouldn't make blockchain the focus of our user experience, because it requires significant technical burden to bear that your average user likely won't have the time, interest, or patience to adhere to resulting in many of the catastrophic human errors talked about earlier.
+
+### Benefit 1: Distributed Trust
 
 {% hint style="success" %}
 ### Main benefits of blockchains
