@@ -214,11 +214,15 @@ The point being made here is that Blockchain simply hasn't had the time, nor exp
 
 We shouldn't make blockchain the focus of our user experience, because it requires significant technical burden to bear that your average user likely won't have the time, interest, or patience to adhere to resulting in many of the catastrophic human errors talked about earlier.
 
-### Benefit 1: Distributed Trust
+Now that we have gone over the main issues with blockchain technology, which are data limitations, high human risk, and poor user experiences, it's time to move on to the main benefits of blockchain technology!
 
 {% hint style="success" %}
 ### Main benefits of blockchains
+
+* 
 {% endhint %}
+
+### Benefit 1: Distributed Trust
 
 {% hint style="success" %}
 ### **Chapter Summary**
@@ -233,10 +237,4 @@ We shouldn't make blockchain the focus of our user experience, because it requir
 {% endhint %}
 
 **In the** [**next chapter** ](https://learn.accrubit.com/blockchain-for-business/business-use-cases)**we will be evaluating the most prominent blockchain solutions, from protocols to front-ends, and how to choose the one that's right for you.**
-
-{% tabs %}
-{% tab title="Chapter References" %}
-1. 
-{% endtab %}
-{% endtabs %}
 
