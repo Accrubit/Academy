@@ -237,9 +237,7 @@ We shouldn't make blockchain the focus of our user experience, because it requir
 
 {% tabs %}
 {% tab title="Chapter References" %}
-1. 2. 3.  [https://blockchain.info/charts/n-transactions-per-block](https://blockchain.info/charts/n-transactions-per-block)
-4. 5. 6. 7. 8. 9. [https://medium.com/swlh/the-user-experience-of-blockchain-applications-ea7defc388df](https://medium.com/swlh/the-user-experience-of-blockchain-applications-ea7defc388df)
-10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 
+1. 
 {% endtab %}
 {% endtabs %}
 
