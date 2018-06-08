@@ -160,9 +160,9 @@ Take a simple decentralized application, or Dapp, built on Ethereum as an exampl
 
 Let's imagine that you were trying to learn more about decentralized applications, which are applications that run autonomously on distributed networks without a central authority. 
 
-You found a particular Dapp that provides a decentralized new network, and are curious for how it works. You go to setup an account on their website, but you are quickly promoted that you need to install some software. In this case, it's the Chrome browser extension Metamask, which acts as an account bridge between traditional browsers and the Ethereum blockchain.
+You found a particular Dapp that provides a decentralized news network, and are curious for how it works. You go to setup an account on their website, but you are quickly prompted with a message that you need to install some software. In this case, it's the Chrome browser extension Metamask, which acts as an account bridge between traditional browsers and the Ethereum blockchain.
 
-Once installed, you are able to create your account, but as you go to pay for a membership, you realize that your Metamask wallet is empty. You then go to login to Coinbase to get some Ether, which requires you to go get your phone from the other room for the two factor authentication required to login into your account.
+Once installed, you are able to create your account, but as you go to pay for a membership, you realize that your Metamask wallet is empty. You then navigate to Coinbase to get some Ether, which requires you to go get your phone from the other room for the two factor authentication required to login into your account.
 
 Once logged in, you buy some Ether, and send it to the Metamask address your created. By the time you have done all of this, it's been 15 minutes and you have become disinterested in the Dapp and more interested in the current price trends of cryptocurrency.
 
