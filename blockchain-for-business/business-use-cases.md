@@ -225,48 +225,40 @@ Now that we have gone over the main issues with blockchain technology, which are
 
 1. Information is transparent and auditable by all participants
 2. Transactions are cheaper, faster, and more efficient than traditional 3rd party mediation systems
-3. Transactions are immutable, maintain their integrity over time, and require agreement from all participants to be valid
+3. Transactions are immutable, maintain their integrity over time, and require agreement between parties to be stored
 {% endhint %}
 
 ### Benefit 1: Distributed Trust
 
-At face value the idea of having distributed trust, especially concerning information representing an ownership of value, is often met with skepticism. When thinking from a business perspective, how could sharing more information with your business network be more secure and trustworthy than the alternative? It practically undermines most security controls we currently use, which aim to limit as much access to information as possible.
+At face value the idea of having distributed trust, especially concerning information representing an ownership of value, is often met with skepticism. When thinking from a business perspective, how could sharing more information with your business network be more secure and trustworthy than the alternative? It practically undermines most security controls we currently use which aim to limit as much access to information as possible.
 
-Why not just stick with your private cloud system where all of your records and transactions are stored and managed where you can control the outcome? 
+Why not just stick with your cloud system where all of your records and settlements are stored and managed where you can control the outcome? 
 
-Why not just keep that 3rd party intermediary to manage the trustful transference of sensitive data?
+Why not just keep that 3rd party intermediary to manage the trustful transference of these settlements?
 
-The reason why we are initially skeptical about distributed trust, is simply because we haven't had the ability to actually achieve it before now in an efficient way. Our main concern with transactions is ensuring that both parties agree and also fulfill it as agreed upon without any additional modifications, erroneous actions, or corrupt behavior.
+The reason why we are initially skeptical about distributed trust, is simply because we haven't had the ability to actually achieve it before now in an efficient way. Our main concern with transactions is ensuring that both parties agree on a settlement and fulfill it as agreed upon without any additional modifications, erroneous actions, or corrupt behavior.
 
-> Think about the classic movie scene where two opposing gangs meet in a location with briefcases in hand. These briefcases contain something of value to exchange. It could be information, it could be cash, it could be microprocessors, it doesn't matter. 
->
-> The exchange of value needs to be verified, so both parties reveal what's inside their briefcases to reassure to the other party that they intend to exchange what was agreed upon. Once verified, they make the trade and hopefully part ways without conflict.
->
-> Unfortunately, without a third party mediating the exchange, either side could end up being overtaken by force and have their funds stolen, they could accept fraudulent items in the exchange, or simply by mistake transfer the incorrect amount.
->
-> Cue the shootouts, car chases, and fall of an organization.
+Think about the classic movie scene where two opposing gangs meet in a location with briefcases in hand. These briefcases contain something of value to exchange. It could be information, it could be cash, it could be microprocessors, doesn't matter. 
 
-Now obviously making a PayPal transaction isn't synonymous with a crime dealing in an abandoned airfield, but at its foundation its not _**THAT**_ different. With most transactions today there are four main risks that are taken on.
+The exchange of value needs to be verified, so both parties reveal what's inside their briefcases to reassure to the other party that they intend to exchange what was agreed upon. Once verified, they make the trade and hopefully part ways without conflict.
+
+Unfortunately, without a third party mediating the exchange, either side could end up being overtaken by force and have their funds stolen,they could accept fraudulent items in the exchange, or simply by mistake transfer the incorrect amount.
+
+Cue the shootouts, car chases, and fall of an organization.
+
+Now obviously making a PayPal transaction isn't synonymous with a crime dealing in an abandoned airfield, but it's not much different. With most transactions today there are four main risks that are taken on.
 
 1. Fraud
 2. Chargebacks
 3. Loss by Decree
 4. System Dissolution
 
-{% hint style="info" %}
 #### Distributed trust solves these four problems by:
 
 * Eliminating the possibility of chargebacks through the chronological persistence of transactions and real time settlement of assets.
 * Preserving the integrity of transactions over time so that methods of decree cannot modify, eliminate, or censor records on the blockchain.
 * Maintaining a distributed network of participants with full records of transactions to avoid risks regarding participant dissolution.
 * Ensuring what was agreed upon is what actually occurs through the use of mathematical inspection of exchanged content and the distributed consensus of network participants.
-{% endhint %}
-
-{% hint style="success" %}
-* 
-{% endhint %}
-
-#### 
 
 {% hint style="success" %}
 ### **Chapter Summary**

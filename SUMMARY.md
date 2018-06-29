@@ -15,5 +15,5 @@
 * [Cryptoeconomics](cryptoeconomics.md)
 * [Cryptocurrency Investing](untitled.md)
 * [Cryptocurrency Income](cryptocurrency-income/README.md)
-  * [Tierion Nodes](cryptocurrency-income/tierion-nodes.md)
+  * [Tierion Node Setup](cryptocurrency-income/tierion-nodes.md)
 

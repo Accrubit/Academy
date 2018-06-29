@@ -1,4 +1,10 @@
-# Tierion Nodes
+---
+description: >-
+  A simple tutorial for setting up and managing Tierion nodes, which provide
+  rewards for verifying and anchoring attestations to the Bitcoin blockchain.
+---
+
+# Tierion Node Setup
 
 ### Getting Started
 
@@ -160,8 +166,6 @@ You will know your node is working if there are no errors, and that you are seei
 
 If you see "Firewall: "\#\#\#\#" IPs Blocked" this is normal so don't worry about it. 
 
-If you see that registration is full, simply wait for the next registration announcement from Tierion on their [blog](https://medium.com/tierion).
-
 If you are seeing any other errors check out the [node FAQ](https://github.com/chainpoint/chainpoint-node/wiki/Frequently-Asked-Questions) for resolution.
 
 {% hint style="info" %}
@@ -185,7 +189,7 @@ Congratulations, you node is now setup. It will take around 2 hours \(**4 calend
 If the above check out, you can then login to your node's interface using your browser like so:
 
 1. **Visit the web interface for your node:** http://YourNode'sStaticIP
-2. **Enter your node's password:** yourwalletaddress
+2. **Enter your node's password:** YourNode'sWalletAddress
 
 Once you are logged in, click the three bar menu tab and go to the about section. This is the place where you will find all of the needed information about your node and it's health in the network.
 
