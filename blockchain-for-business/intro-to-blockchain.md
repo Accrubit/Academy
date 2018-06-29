@@ -71,7 +71,7 @@ What blockchain does for business is allow separate entities to utilize a master
 * What are some ways programmable contracts can improve business?
 * Why shouldn't we just use the systems we already have?
 * If blockchains are so much better, why aren't they being used everywhere?
-* Are blockchains just for payments or can they be used for other cases?
+* Are blockchains just for payments or can they be used for other use cases?
 {% endhint %}
 
 **In the** [**next chapter** ](https://learn.accrubit.com/blockchain-for-business/business-use-cases)**we will go over these questions and more as we review the most prominent use cases \(and non-use cases\) for blockchain technology.** 
@@ -84,7 +84,6 @@ What blockchain does for business is allow separate entities to utilize a master
 4.  [https://www.investopedia.com/terms/g/generalledger.asp](https://www.investopedia.com/terms/g/generalledger.asp)
 5.  [https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf](https://www.cl.cam.ac.uk/~rja14/Papers/SE-09.pdf)
 6.  [http://fortune.com/2017/12/07/satire-its-time-to-admit-no-one-knows-what-the-blockchain-is/](http://fortune.com/2017/12/07/satire-its-time-to-admit-no-one-knows-what-the-blockchain-is/)
-7. 8. 9. 
 {% endtab %}
 
 {% tab title="Forum" %}
