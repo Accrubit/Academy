@@ -9,6 +9,8 @@ description: >-
 
 Whether you are an experienced developer looking to add blockchain to your toolbelt, or a beginner trying to get your foot in the door with a trending and high paying technology, this guide will provide you with the technical knowledge required, as well as practical development exercises for blockchains, smart contracts, and cryptocurrency.
 
+This is not a course for those who are trying to learn blockchain from a casual point of view. We will be learning deep technical concepts, writing code, and deploying applications. 
+
 To navigate this guide, simply select the next chapter on either on the navigation bar or at the end of the chapter there are buttons that take you to the next lesson.   
   
 The guide is organized in a chronological order of understanding, so don't skip ahead unless you already know everything on the page. If you have any questions, ask them in the forum at [https://community.accrubit.com](https://community.accrubit.com)

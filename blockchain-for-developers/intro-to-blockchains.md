@@ -6,7 +6,7 @@ description: >-
 
 # Technical Intro to Blockchain
 
-This module is going to be technically heavy. There are already too many oversimplified tutorials out there that gloss over important data structures and elements, and we are not going to contribute to that. Please feel free to visit our [support community](https://community.accrubit.com) where you can ask any questions if you are stuck or lost. 
+### Getting Started
 
 {% hint style="info" %}
 ### What this section covers
@@ -21,6 +21,14 @@ This module is going to be technically heavy. There are already too many oversim
 * Consensus Methodologies
 {% endhint %}
 
+This module is going to be technically heavy, but don't become discouraged as most of the components by themselves are fairly simple to understand. 
+
+{% hint style="danger" %}
+**Don't skip ahead.** 
+
+Focus on one component at a time until you understand it, because everything on this page is required knowledge before we can begin developing a blockchain of our own. 
+{% endhint %}
+
 ![](../.gitbook/assets/weekly-market-breakdown-7.png)
 
 Blockchain was first invented with the development of the cryptocurrency Bitcoin, which is a peer to peer digital currency and settlement network that enables individuals to store, retrieve, and transact anywhere in the world across any border without needing a 3rd party to facilitate the service. [\[1\]](https://bitcoin.org/bitcoin.pdf)  
@@ -29,15 +37,15 @@ It's important to note, that Bitcoin and blockchain are not synonymous with each
   
 Due to this, there are hundreds of definitions for blockchain circulating around the internet, most of which are inaccurate or over simplified. As a blockchain developer, the below definition is what you want to actually remember. [\[6\]](http://fortune.com/2017/12/07/satire-its-time-to-admit-no-one-knows-what-the-blockchain-is/)
 
-{% hint style="info" %}
-### Blockchain Defined:
+### Blockchain Defined
 
-A blockchain is a chronologically sorted, distributed, digital ledger which contains an irreversible archive of transaction records that are stored and chained together in batches called blocks.
+{% hint style="info" %}
+A blockchain is a chronologically sorted, distributed, digital ledger which contains an irreversible archive of transaction records that are stored and chained together using cryptography in batches called blocks.
 {% endhint %}
 
 ![Blockchain Visualization](https://www.accrubit.com/uploads/2/8/3/7/28374731/published/1_1.png?1527752794)
 
-For those familiar with data structures, you could roughly describe a blockchain as a linked list of data containers holding Merkle hash trees of records. 
+For those familiar with data structures, you could roughly describe a blockchain as a linked list of data containers holding Merkle hash trees of records.
 
 So now that we know what a blockchain is, we can begin breaking down some of the components in this definition. The first we will start with is the block.
 
@@ -50,7 +58,7 @@ A block is a data container which uses a Merkle tree data structure to store cry
    1. Parent Block's Hash
    2. Merkle Tree Root
    3. Block Hash
-2. **Record**
+2. **Records**
    1. Transaction Origin
    2. Transaction Destination
    3. Transaction Data
@@ -63,7 +71,9 @@ A block header basically contains all of the metadata necessary for the blockcha
 
 ![https://www.blockchain.com/](../.gitbook/assets/client-server-1.png)
 
-The genesis block is the very first block in a blockchain, and since it does not have a previous block to build an identifier from, it is defined instead in the software itself during development. It contains parameters such as the mining difficulty, chain configuration, etc and is always considered block\[0\] much like an array.  You could look at it as the “settings” for your blockchain. 
+In the above example, we have a Bitcoin block 547634. The hash for this block was created by hashing the previous block's \(547633\) hash value. The merkle root represents the data of every record and every transaction contained in the block.
+
+The genesis block is the very first block in a blockchain, and since it does not have a previous block to build an identifier from, it is defined instead in the software itself during development. It contains parameters such as the mining difficulty, chain configuration, etc and is always considered block\[0\] much like an beginning value in an array.  You could look at it as the “settings” for your blockchain. 
 
 For example, below is a JSON file for a genesis block configuration for an Ethereum based blockchain:
 
@@ -95,7 +105,7 @@ If you don't understand the above, don't worry. We will be covering the developm
 
 Since we can visualize a blockchain in chronological order from the genesis block, we also have what is called the block height, which is simply the count from 0 \(Genesis\) to the last block appended to the chain. 
 
-Next we have to talk about Merkle roots and Merkle trees, which are the basis for all data storage in a blockchain.
+Next we have to talk about Merkle roots and Merkle trees, which is the basis for all data storage and indexing in a blockchain.
 
 {% hint style="info" %}
 ### Merkle Trees Defined:
