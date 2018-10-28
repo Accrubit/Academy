@@ -11,7 +11,7 @@ Whether you are a CIO just trying to find out what all of the blockchain fuss is
 
 To navigate this guide, simply select the next chapter on either on the navigation bar or at the end of the chapter there are buttons that take you to the next lesson.   
   
-The guide is organized in a chronological order of understanding, so don't skip ahead unless you already know everything on the page. If you have any questions, ask them in the forum at [https://discourse.accrubit.com](https://discourse.accrubit.com/)
+The guide is organized in a chronological order of understanding, so don't skip ahead unless you already know everything on the page. If you have any questions, ask them in the forum at [https://community.accrubit.com](https://discourse.accrubit.com/)
 
 {% hint style="success" %}
 ### Learning Objectives

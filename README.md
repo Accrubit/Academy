@@ -22,15 +22,15 @@ To find your way around, this page contains a change log of updates to my materi
 ### Resources
 
 | Blockchain for Business \(In progress\) |
-| --- | --- | --- | --- | --- |
+| :--- |
 | Blockchain for Developers \(In progress\) |
 | Cryptoeconomics \(In progress\) |
 | Cryptocurrency Investing \(In progress\) |
 | Cryptocurrency Income \(In progress\) |
 
-## Accrubit Academy - 2018-06-02 {#welcome-to-accrubit-academy-2018-06-02}
+## Accrubit Academy - 2018-06-02 <a id="welcome-to-accrubit-academy-2018-06-02"></a>
 
-### Changed {#changed}
+### Changed <a id="changed"></a>
 
 * Title and description of Home Page edited to reflect purpose of website
 * Navbar edited for continuity
@@ -42,9 +42,9 @@ To find your way around, this page contains a change log of updates to my materi
 * Cryptocurrency Income Guide
   * Tierion Node Tutorial
 
-## Accrubit Academy - 2018-06-01 {#blockchain-for-business-2018-06-01}
+## Accrubit Academy - 2018-06-01 <a id="blockchain-for-business-2018-06-01"></a>
 
-### Added {#added}
+### Added <a id="added"></a>
 
 * 10 incomplete chapters added to Blockchain for Business guide
 * Accrubit Academy website and course structure deployed
