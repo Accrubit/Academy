@@ -49,31 +49,37 @@ For those familiar with data structures, you could roughly describe a blockchain
 
 So now that we know what a blockchain is, we can begin breaking down some of the components in this definition. The first we will start with is the block.
 
+### Blocks Defined
+
 {% hint style="info" %}
-### Blocks Defined:
-
-A block is a data container which uses a Merkle tree data structure to store cryptographic links to it's underlying records using hashes. The following is a list of basic block components:
-
-1. **Header**
-   1. Parent Block's Hash
-   2. Merkle Tree Root
-   3. Block Hash
-2. **Records**
-   1. Transaction Origin
-   2. Transaction Destination
-   3. Transaction Data
-3. **Consensus Data**
-   1. Nonce
-   2. Timestamp
+A block is a data container which uses a Merkle tree data structure to store cryptographic links to it's underlying records using hashes. 
 {% endhint %}
 
-A block header basically contains all of the metadata necessary for the blockchain and node participants to validate and append a block to the blockchain. The previous block's hash is used to create the current block's hash, which when appended to the blockchain creates a chronological chain of blocks starting from the genesis block. This is why it's called a blockchain.
+**The following is a list of basic block components:**
+
+* **Header**
+  * Parent Block's Hash
+  * Merkle Tree Root
+  * Block Hash
+* **Records**
+  * Transaction Origin
+  * Transaction Destination
+  * Transaction Data
+* **Consensus Data**
+  * Nonce
+  * Timestamp
+
+A block header basically contains all of the metadata necessary for the blockchain and node participants to validate and append a block of data to the blockchain. The previous block's hash is used to create the current block's hash, which when appended to the blockchain creates a chronological chain of blocks starting from the genesis block. 
+
+This is why it's called a blockchain, because each consecutive block is linked to the previous block through hashes. Below is an example of a block header for Bitcoin block \#547,634.
 
 ![https://www.blockchain.com/](../.gitbook/assets/client-server-1.png)
 
-In the above example, we have a Bitcoin block 547634. The hash for this block was created by hashing the previous block's \(547633\) hash value. The merkle root represents the data of every record and every transaction contained in the block.
+The hash for this block was created by hashing the previous block's \(547633\) hash value. The merkle root represents the data of every record and every transaction contained in the block. You can view this data manually through queries, or you can use a block explorer to view it.
 
-The genesis block is the very first block in a blockchain, and since it does not have a previous block to build an identifier from, it is defined instead in the software itself during development. It contains parameters such as the mining difficulty, chain configuration, etc and is always considered block\[0\] much like an beginning value in an array.  You could look at it as the “settings” for your blockchain. 
+#### What's a Genesis Block?
+
+The genesis block is the very first block in a blockchain, and since it does not have a previous block to build an identifying hash from, it is defined instead in the software itself during development. It contains parameters such as the mining difficulty, chain configuration, etc and is always considered block\[0\], much like an beginning value in an array.  You could look at it as the “settings” for your blockchain. 
 
 For example, below is a JSON file for a genesis block configuration for an Ethereum based blockchain:
 
@@ -117,11 +123,11 @@ On a blockchain the data record being hashed is called a transaction. Depending 
 
 ![Merkle Tree Example](../.gitbook/assets/client-server-2.png)
 
-### So why use Merkle trees?
+#### So why use Merkle trees?
 
-Since a Merkle root can represent a vast number of records, data can be reconstructed rapidly for fast access, and consensus protocols can quickly verify and accept that a block has integrity. This block integrity combined with the use of linking blocks with parent hashes, makes it so that not even a single transaction record can be modified without making the entire block, and subsequent blockchain invalid.
+Since a Merkle root can represent a vast number of records, data can be reconstructed rapidly for fast access, and consensus protocols can quickly verify and accept that a block has integrity due to the cryptographic links from top to bottom. 
 
-This is a pretty powerful combination that not only protects data, but allows quick searching and indexing. This is one of the key functions of blockchains as a peer to peer ledger, as they allow the possibility of light clients where only the block headers need to be downloaded, instead of every single transaction for every single block.
+This makes it so that not even a single transaction record can be modified without making the entire block, and subsequent blockchain invalid. 
 
 Blockchains also can use varying amounts of Merkle trees per block. For example:
 
@@ -137,6 +143,38 @@ Blockchains also can use varying amounts of Merkle trees per block. For example:
 ![Ethereum Merkle Trees](https://blog.ethereum.org/wp-content/uploads/2015/11/ethblockchain_full.png)
 
 Now you may look at the above diagram and notice there is only two trees here. This is because the third tree is much more complicated in Ethereum and uses what is called a Patricia Tree to manage the state of the Ethereum blockchain. This is beyond the scope of this guide, but if you want to rack your brain around it, just head over to ethereum.org.
+
+### Transactions Defined
+
+{% hint style="info" %}
+A transaction is an atomic event allowed by the underlying protocol to make an addition to the state of the blockchain.
+{% endhint %}
+
+As stated before, transactions can really contain anything so long as they adhere to the rules of the blockchain outlined in the Genesis block. For example:
+
+This could be monetary transactions where Bob sends X currency to Alice. How the blockchain interprets this transaction is the blockchain subtracts X currency from Bob and adds X currency to Alice. So to make this happen we need at least a few things:
+
+* Bob's Address \(Transaction Originator\)
+* Alice's Address \(Transaction Destination\)
+* Currency Data \(Transaction Data\)
+
+Even though we consider this a monetary transaction, what is really happening is we are modifying the state of the ledger to reflect the authorized addition and subtraction event to take place. Bob isn't actually giving anything to Alice from a technical standpoint, but instead the blockchain is updating itself based on a valid and authorized transaction. Like any software, we can create whatever events we want. 
+
+* This could be the destruction and construction of a trade-able asset in a game.
+* This could be the resolution of a name to a wallet address.
+* This could be taking a file and storing it.
+
+The list goes on.
+
+Now I used the word authorized on purpose when talking about transaction events, because this also implies that some authentication needs to take place as well. Like any IT system containing valuable data, we should have a way to authenticate at least the originator of a transaction before allowing any authorized changes to the state occur.
+
+In most blockchains, this authentication component takes the form of a wallet. 
+
+This is where transactions get tricky. In order to authorize a transaction, we need to read the entire chain for the originating member in order to know the exact state of any required parties in the transaction process. So with Bob, we need to read the entire blockchain and sum his entire transactions in order to know whether he has enough of X currency to be sending to Alice prior to it being appended to the blockchain. 
+
+This specific scenario is important, and is known as the Double Spending Problem
+
+
 
 
 
